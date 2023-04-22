@@ -12,9 +12,11 @@ def multiply_numbers(num_a, num_b):
 
 print("multiply_numbers(2, 3) is:")
 print(multiply_numbers(2, 3))
+# returns 6
 
 print("multiply_numbers(3, 5) is:")
 print(multiply_numbers(3, 5))
+# return 15
 
 # @TASK: Run these in the shell using:
 
