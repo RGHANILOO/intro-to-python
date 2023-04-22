@@ -92,6 +92,7 @@ add_one(4) * 3      # Evaluates to 15
 # To finish off, here's a real mind-bender:
 
 add_one(add_one(add_one(add_one(add_one(add_one(1))))))
+# return a 7 as add one is nested 6 times with an intital argument of 1 passing as the function parameter
 
 # @TASK: What do you think that evaluates to? And why? Give
 # it a go and find out.
