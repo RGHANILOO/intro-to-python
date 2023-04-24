@@ -59,7 +59,7 @@ print("")
 print("Function: a_and_b")
 
 def a_and_b(a, b):
-  # return a ?? b
+  return a and b
   pass
 
 check_that_these_are_equal(a_and_b(True, True), True)
@@ -75,7 +75,7 @@ print("Function: not_a")
 # Note that this operator only takes one value. The operator
 # goes first, and the value second.
 def not_a(a):
-  # return ?? a
+  return not a
   pass
 
 check_that_these_are_equal(not_a(True), False)
@@ -83,3 +83,5 @@ check_that_these_are_equal(not_a(False), True)
 
 # Perhaps you could have guessed those... but now you know
 # for sure! When you're done, move on to 029_lists.py
+
+# Python logical operators are and or not

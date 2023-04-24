@@ -25,7 +25,7 @@ my_friends = ["Victoria", "Mel", "Melanie", "Emma"]
 
 # @TASK Try making your own here:
 
-your_list = ...
+your_list = ['finish the python intro','the do coder byte','then do self assesment']
 print(your_list)
 
 # @TASK and print it out by running:

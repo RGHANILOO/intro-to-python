@@ -42,12 +42,12 @@ def print_numbers_in_range_with_a_while():
 # going to go through three different ways of using them:
 
 # * Summarising: Using a loop to distil a list into one
-#   value.
+#   value.similar built function to JS reduce () where it return a single value at the end
 
 # * Mapping: Using a loop to convert each item to another
-#   item.
+#   item. same as js map() function where it returns a new array of mapped items
 
 # * Filtering: Using a loop to pick out only some items from
-#   a list.
+#   a list. same as js returning a new array of filtered items
 
 # To start summarising, go to 034_summarising.py
