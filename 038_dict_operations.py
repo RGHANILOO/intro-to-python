@@ -67,6 +67,24 @@ print("Function: count_words_by_length")
 # Since there are two words of length 3, etc.
 
 def count_words_by_length(words):
+  #define a variable to keep count
+  word_len_repetition = {}
+  #for loop to loop over each word  in words array/list
+  for word in words:
+    #defining a variable that checks the length of each word 
+    word_len=len(word)
+    #if the word length already not in the counter assisgn 1 to it
+
+    if word_len not in word_len_repetition:
+      word_len_repetition[word_len]=1
+
+      #if the counter already has the count add 1 tio it
+    else :
+      word_len_repetition[word_len]=word_len_repetition[word_len]+1
+
+      #return the counter
+  return word_len_repetition
+
   pass
 
 check_that_these_are_equal(

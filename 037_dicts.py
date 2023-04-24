@@ -8,6 +8,7 @@
 # We're going to add another one:
 
 # * Dictionaries: A collection of keys mapped to values
+# basically a javascript object in the way it stores information with key value
 
 # You know how in a dictionary you look up a word and it
 # provides a definition? In that sense, the 'word' is the
@@ -18,6 +19,7 @@
 my_dictionary = {
   "String": "A sequence of characters",
   "List": "A sequence of any item",
+  "Dictionary":"A collection of keys mapped to values"
 }
 
 # Note that:
@@ -40,6 +42,10 @@ print("  " + my_dictionary["List"])
 # print out the value below.
 
 print("A Dictionary is:")
+print ( f'  {my_dictionary["Dictionary"]}')
+
+#you can write it in string interpolation as short hand
+
 # ...
 
 # Once you're done, move on to 038_dict_operations.py
